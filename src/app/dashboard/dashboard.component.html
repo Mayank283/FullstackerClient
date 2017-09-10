@@ -1,0 +1,114 @@
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid" id="dash-nav"> 
+            <div class="navbar-header">
+                <a id="nav-entity" class="navbar-brand" href="#"><i class="fa fa-code" aria-hidden="true"></i> fullstacker</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a id="nav-entity" href="#">Course</a></li>
+                <li><a id="nav-entity" href="#">Syllabus</a></li>
+            </ul>
+            <form id="dash-search" class="navbar-form navbar-left">
+                
+                <div class="input-group">
+                    <input type="text" class="form-control form-group col-lg-50" placeholder="Search" />
+                    
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                    
+                </div>
+            </form>
+            
+            <div class="login-signup">
+                <button class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#signupModal">SignUp</button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Modal -->
+    <div id="signupModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                
+                <!-- <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Signup</h4>
+                </div> -->
+                
+                <div class="modal-body">
+                    <div id="login-box" class="signup-modal">
+                        <div class = "left">
+                            <h1>Sign up</h1>
+                            <form>
+                                <input type="text" name="username" placeholder="Username" class="dashboard-text">
+                                <input type="email" name="email" placeholder="E-mail" class="dashboard-email">
+                                <input type="password" name="password" placeholder="Password" class="dashboard-text">
+                                <input type="password" name="retypepass" placeholder="Retype password" class="dashboard-text">
+                                <input type="submit" name="signup_submit" value = "SIGN ME UP" class="dashboard-submit">
+                            </form>
+                        </div>
+                        
+                        <div class = "right">
+                            <span class="loginwith">Sign in with<br />social network</span>
+                            <button class="social-signin facebook">Log in with facebook</button>
+                            <button class="social-signin twitter">Log in with Twitter</button>
+                            <button class="social-signin google">Log in with Google+</button>
+                        </div>
+                        <div class="or">OR</div>
+                    </div>
+                </div>
+                
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <!-- <img id="dashboard-image" alt="Responsive image" src="../../assets/tech2.jpg" class=".img-responsive"> -->
+        <img id="dashboard-image" alt="Responsive image" src="../../assets/maxresdefault.jpg" class=".img-responsive">
+    </div>  
+    
+    <footer class="dashboard-footer">
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3  col-md-2 col-sm-4 col-xs-6">
+                        <h3> Lorem Ipsum </h3>
+                        <ul>
+                            <li> <a href="#"> Lorem Ipsum </a> </li>
+                            <li> <a href="#"> Lorem Ipsum </a> </li>
+                            <li> <a href="#"> Lorem Ipsum </a> </li>
+                            <li> <a href="#"> Lorem Ipsum </a> </li>
+                        </ul>
+                        <br><br><br>
+                        <ul class="social">
+                            <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                            <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                            <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                            <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                            <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-6 col-xs-12 col-md-offset-5">
+                        <h3 id="contact"> Contact </h3>
+                        <ul>
+                            <li>
+                                <div class="input-append newsletter-box text-center">
+                                    <input id ="footer-contact" type="text" class="full" placeholder="Email ">
+                                    <textarea id="footer-message" placeholder="Message"></textarea>
+                                    <button id="button-send" class="btn btn-primary" type="submit">Send <i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.row--> 
+            </div>
+            <!--/.container--> 
+        </div>
+    </footer>
